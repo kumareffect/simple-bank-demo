@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn, .btnw, .btnd, .btnws {
+    font-size: 14px;
+    padding: 5px 8px;
+    border-radius: 10px 0px;
+    font-weight: 900;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btnws {
+    float: right;
+}
+
+.btn:hover, .btnd:hover, .btnw:hover {
+    transform: translate(5px);
+}
+
+.btn:active, .btnd:active, .btnw:active {
+    box-shadow: 5px 4px 3px rgba(0, 0, 0, 0);
+}
+
+fieldset {
+    margin-top: 10px;
+}
+
+legend {
+    color: cornflowerblue;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.withdrawl {
+    display: none;
+}
+
+.deposit {
+    display: none;
+}
